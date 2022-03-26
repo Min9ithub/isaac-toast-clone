@@ -1,32 +1,22 @@
-.red_zone {
-  width: 100%;
-  height: 5px;
-  position: absolute;
-  top: 0;
-  background-color: #d3313a;
-}
-
-#title {
+#header {
+  border-top: 5px solid #d3313a;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
-  font-family: "Noto Sans KR";
-  margin-top: 48px;
-  margin-bottom: 48px;
-  padding: 0px 68px;
+  padding: 43px 68px;
+  padding-bottom: 41px;
 }
 
-.title__img img {
+.logo__img img {
   width: 260px;
 }
 
 .menu_list {
   display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  font-weight: 500;
 }
-
 .menu_list li {
   margin-left: 90px;
-  font-weight: 500;
-  font-size: 1.25em;
 }
