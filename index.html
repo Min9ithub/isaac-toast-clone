@@ -24,29 +24,45 @@
         </ul>
       </nav>
     </header>
+    <aside class="aside">
+      <div class="aside_position">
+        <div class="aside_wrapper">
+          <a href=""><img src="img/quick-tel.png" /></a>
+          <a href=""><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+    </aside>
     <main id="main">
       <section class="main_banner">
         <a href="#"><img src="img/banner_1.jpg" /></a>
+        <div class="main_banner__whitebox">
+          <span></span>
+          <span></span>
+        </div>
       </section>
       <section class="main_btn">
-        <a href=""
-          ><div class="main_btn__order">
-            <img src="img/bread_icon.png" />
-            <span class="red_zone">주문하기</span>
-          </div></a
-        ><a href="">
-          <div class="main_btn__gift">
-            <img src="img/gift_icon.png" />
-            <span>선물하기</span>
-          </div></a
-        ><a href="">
-          <div class="main_btn__search">
-            <img src="img/store_icon.png" />
-            <span>가맹점찾기</span>
-          </div></a
-        >
+        <div class="main_btn_wrapper">
+          <div class="main_btn__column">
+            <a href="">
+              <img src="img/bread_icon.png" />
+              <span class="red_zone">주문하기</span></a
+            >
+          </div>
+          <div class="main_btn__column">
+            <a href="">
+              <img src="img/gift_icon.png" />
+              <span>선물하기</span></a
+            >
+          </div>
+          <div class="main_btn__column">
+            <a href="">
+              <img src="img/store_icon.png" />
+              <span>가맹점찾기</span></a
+            >
+          </div>
+        </div>
       </section>
-      <!-- <section class="video">
+      <section class="video">
         <iframe
           width="1400"
           height="790"
@@ -56,39 +72,38 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </section> -->
-      <aside>
-        <a href=""><img src="img/quick-tel.png" /></a>
-      </aside>
+      </section>
       <section class="sns_btn red_zone">
-        <a href="">
-          <div class="sns_btn__facebook">
-            <img src="img/facebook.png" />
-            <span>facebook</span>
-          </div></a
-        >
-        <a href="">
-          <div class="sns_btn__instagram">
-            <img src="img/instagram.png" />
-            <span>instagram</span>
-          </div></a
-        >
-        <a href="">
-          <div class="sns_btn__blog">
-            <img src="img/blog.png" />
-            <span>블로그</span>
-          </div></a
-        >
+        <div class="sns_btn_wrapper">
+          <div class="sns_btn__column">
+            <a href="">
+              <img src="img/facebook.png" />
+              <span>facebook</span></a
+            >
+          </div>
+          <div class="sns_btn__column">
+            <a href="">
+              <img src="img/instagram.png" />
+              <span>instagram</span></a
+            >
+          </div>
+          <div class="sns_btn__column">
+            <a href="">
+              <img src="img/blog.png" />
+              <span>블로그</span></a
+            >
+          </div>
+        </div>
       </section>
       <section class="main_menu">
-        <div class="main_menu__title">
+        <div class="main_menu__header">
           <span class="red_zone">isaac</span>
           <span>menu</span>
-        </div>
-        <div class="main_menu__header">
-          <a href=""><span>토스트</span></a>
-          <a href=""><span>커피&티</span></a>
-          <a href=""><span>음료</span></a>
+          <div class="main_menu__nav">
+            <a href=""><span>토스트</span></a>
+            <a href=""><span>커피&티</span></a>
+            <a href=""><span>음료</span></a>
+          </div>
         </div>
         <div class="main_menu__contents"></div>
       </section>
@@ -103,4 +118,8 @@
     </main>
     <footer id="footer"></footer>
   </body>
+  <script
+    src="https://kit.fontawesome.com/52a94dbd0d.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
