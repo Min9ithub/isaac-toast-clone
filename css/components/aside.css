@@ -1,0 +1,27 @@
+.aside {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.aside_position {
+  position: relative;
+  width: 100%;
+}
+
+.aside_wrapper {
+  width: 100%;
+  position: absolute;
+  top: 106px;
+  display: flex;
+  justify-content: end;
+}
+
+.aside_wrapper img,
+.aside_wrapper i {
+  margin-right: 10px;
+}
+.aside i {
+  font-size: 25px;
+  opacity: 0.3;
+}

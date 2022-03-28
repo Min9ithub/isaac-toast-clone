@@ -1,0 +1,29 @@
+.main_banner {
+  height: 545px;
+}
+
+.main_banner img {
+  width: 100%;
+  transform: translateY(53px) scale(1.24, 1.25);
+}
+.main_banner__whitebox {
+  position: relative;
+  top: 68px;
+  right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_banner__whitebox span {
+  display: block;
+  background-color: white;
+  width: 164px;
+  height: 2px;
+  margin-left: 10px;
+}
+
+.main_banner__whitebox span:first-child {
+  width: 164px;
+  height: 5px;
+}

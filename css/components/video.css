@@ -1,0 +1,6 @@
+.video {
+  border: none;
+  outline: 0;
+  padding: 100px var(--padding_left_right);
+  /* animation: fadeInUp 1s; */
+}

@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Recipekorea";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main_menu {
+  margin-top: 100px;
+}
+
+.main_menu__title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.main_menu__title span {
+  font-family: "Recipekorea", "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.main_menu__title span:first-child {
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.main_menu__title span:last-child {
+  text-transform: capitalize;
+}
+
+.main_menu__nav {
+  font-family: "Noto Sans KR";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.main_menu__nav span {
+  width: 100%;
+  margin: 0px 30px;
+}
+
+.main_menu__nav a:nth-child(2)::before {
+  position: absolute;
+  left: 46%;
+  height: 1em;
+  margin-top: -0.5em;
+  top: 50%;
+  border-left: 1px solid #ddd;
+  content: "";
+}
+
+.main_menu__nav a:last-child::before {
+  position: absolute;
+  left: 55%;
+  height: 1em;
+  margin-top: -0.5em;
+  top: 50%;
+  border-left: 1px solid #ddd;
+  content: "";
+}
+
+.main_menu__img {
+  width: 100%;
+  height: 350px;
+}
+
+.main_menu__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toast-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toast-img img {
+  width: 234.5px;
+  height: 234.5px;
+}

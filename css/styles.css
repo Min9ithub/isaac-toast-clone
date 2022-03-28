@@ -1,11 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hubballi&family=Noto+Sans+KR:wght@400;500&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff");
 
 @import "reset.css";
+@import "variable.css";
 
-@import "nav-bar.css";
+/* Components */
+@import "./components/nav-bar.css";
+@import "./components/main-banner.css";
+@import "./components/main-btn.css";
+@import "./components/video.css";
+@import "./components/aside.css";
+@import "./components/sns-btn.css";
+@import "./components/main-menu.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Noto Sans KR";
+  font-weight: 500;
+  height: 1000vh;
 }
 
 a {
@@ -13,6 +28,13 @@ a {
   color: inherit;
 }
 
-.main_banner img {
-  width: 100%;
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
 }
