@@ -1,0 +1,68 @@
+.community {
+  padding: 100px 0px;
+  height: 510px;
+  background-color: #fbeaeb;
+}
+
+.community_title {
+  display: flex;
+  justify-content: center;
+  font-family: "Recipekorea";
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 65px;
+}
+
+.community_title span:first-child {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.community_title span:last-child {
+  text-transform: capitalize;
+}
+
+.community_contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px;
+}
+
+.community_contents li {
+  width: 340px;
+  height: 200px;
+  background-color: #fddfe1;
+}
+
+.community_contents li:hover {
+  background-color: #fcc7cb;
+}
+
+.community_contents_title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 120px;
+}
+
+.txt-bx {
+  padding: 25px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.txt-bx .txt {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.txt-date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.txt-date-wrapper .date {
+  font-size: 14px;
+}

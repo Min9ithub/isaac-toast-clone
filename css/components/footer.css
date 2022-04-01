@@ -1,0 +1,9 @@
+.top-btn {
+  background: url("../../img/top-btn.png") no-repeat;
+  border: none;
+  width: 37px;
+  height: 25px;
+  float: right;
+  /* position: fixed; */
+  z-index: 22;
+}
