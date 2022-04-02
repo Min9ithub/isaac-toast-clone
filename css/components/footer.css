@@ -4,6 +4,6 @@
   width: 37px;
   height: 25px;
   float: right;
-  /* position: fixed; */
+  position: fixed;
   z-index: 22;
 }
