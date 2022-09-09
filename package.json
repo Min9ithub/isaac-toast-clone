@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/Min9ithub/isaac-toast-clone#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
   }
 }
